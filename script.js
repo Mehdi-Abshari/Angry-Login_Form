@@ -68,6 +68,6 @@ submitBtn.addEventListener("click", () => {
 
   let titabImg = document.createElement("img");
   titabImg.classList.add("titabImg");
-  titabImg.setAttribute("src", "/Images/Titab.jpg");
+  titabImg.setAttribute("src", "./Images/Titab.jpg");
   body.appendChild(titabImg);
 });

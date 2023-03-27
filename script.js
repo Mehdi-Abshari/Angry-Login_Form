@@ -26,19 +26,19 @@ let isPasswordvalid = () => {
 usernameRef.addEventListener("input", () => {
   if (!isUsernamevalid()) {
     usernameRef.style.cssText =
-      "border-color: #fe2e2e; background-color: #ffc2c2";
+      "border-color: #fe2e2e; background-color: red";
   } else {
     usernameRef.style.cssText =
-      "border-color: #34bd34; background-color: #c2ffc2";
+      "border-color: #34bd34; background-color: #1d7773";
   }
 });
 passwordRef.addEventListener("input", () => {
   if (!isPasswordvalid()) {
     passwordRef.style.cssText =
-      "border-color: #fe2e2e; background-color: #ffc2c2";
+      "border-color: #fe2e2e; background-color: red";
   } else {
     passwordRef.style.cssText =
-      "border-color: #34bd34; background-color: #c2ffc2";
+      "border-color: #34bd34; background-color: #1d7773";
   }
 });
 submitBtn.addEventListener("mouseover", () => {
